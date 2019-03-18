@@ -1,0 +1,222 @@
+body {
+width: 100%;
+height: 100%;
+margin: 0;
+display: block;
+}
+
+.green {
+display:Flex;
+width: 100%;
+height: calc(100%/2);
+background-color: black;
+}
+
+.black{
+display:Flex;
+width: calc(100%/2);
+height: 100%;
+}
+
+
+
+.row1{
+display: block;
+width:calc(100%/4);
+height:100%;
+}
+
+.center {
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.restrict {
+max-height: 80%;
+max-width: 80%;
+}
+
+.pointer:hover {
+cursor: crosshair;
+}
+
+.top {
+	display: flex;
+	width: 100%;
+	height: 50%;
+	background-color: blue;
+}
+
+.bottom {
+	display: flex;
+	width: 100%;
+	height: 50%;
+	background-color:  #003366;
+}
+
+
+.left {
+	display: flex;
+	width: 100%;
+	height: 100%;
+	background-color: ;
+}
+
+.right {
+	display: flex;
+	width: 100%;
+	height: 100%;
+	background-color:;
+}
+
+.row1 {
+	background-color: ;
+	width: 50%;
+	height: 100%;
+	display: block;
+}
+
+.row2 {
+	background-color:;
+	width: 50%;
+	height: 100%;
+	display: block;
+}
+
+.web {
+	display: flex;
+	width: 100%;
+	height: calc(100%/3);
+	background-color: black;
+}
+
+.web2 {
+	display: flex;
+	width: 100%;
+	height: calc(100%/3);
+	background-color: black;
+}
+.web3 {
+	display: flex;
+	width: 100%;
+	height: calc(100%/3);
+	background-color: black;
+}
+
+
+
+.web4 {
+	width: calc(100%/3);
+	height: 100%;
+	justify-content: center;
+}
+
+
+
+
+.web5{
+	display: flex;
+	width: 100%;
+	height: calc(100%/3);
+	background-color: #0d0213;
+}
+
+.web6 {
+	display: flex;
+	width: 100%;
+	height: calc(100%/3);
+	background-color: #8B0000;
+}
+
+.web7 {
+	display: flex;
+	width: 100%;
+	height: calc(100%/3);
+	background-color: #0d0213;
+}
+
+.web8 {
+	display: flex;
+	width: 100%;
+	height: calc(100%/3);
+	background-color: #8B0000;
+}
+
+.web9 {
+	display: flex;
+	width: 100%;
+	height: calc(100%/3);
+	background-color: #0d0213;
+}
+
+.web10 {
+	display: flex;
+	width: 100%;
+	height: calc(100%/3);
+	background-color: #8B0000;
+}
+
+
+
+.opaque {
+	opacity: 100%;
+}
+
+h1 {
+	text-shadow: 3px 1px #bf0000;
+	font-size: 22px;
+}
+
+h2 {
+	color:#E0EEEE;
+	text-shadow: 2px 1px #528B8B;
+	font-size: 22px;
+}
+
+
+h3 {
+	color: Red;
+	text-shadow: 2px 2px #00688B;
+	font-size: 20px;
+}
+
+h4 {
+	text-shadow: 3px 1px #bf0000;
+	font-size: 22px;
+}
+
+h5 {
+	color:#E0EEEE;
+	text-shadow: 2px 1px #528B8B;
+	font-size: 22px;
+}
+
+h6 {
+	color: Red;
+	text-shadow: 2px 2px #00688B;
+	font-size: 20px;
+}
+
+.spider {
+}
+
+.blue {
+	background-color: blue;
+}
+
+
+.webspider {
+	width: calc(100/3);
+	height: 100%;
+}
+
+.mid {
+	width: calc(100%/3);
+	height: 100%;
+	display: block;
+}
+
+.hideimage {
+	visibility: hidden;
+}

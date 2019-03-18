@@ -1,0 +1,118 @@
+<html>
+
+  <head>
+      <meta charset="utf-8">
+      <link href=" morles.PNG" rel="icon" type="image/x-icon">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Spiderverse</title>
+      <link rel="stylesheet" href="stylesheet.css"/>
+  </head>
+
+  <body>
+
+    <div class="top">
+      <div class="left">
+        <div class="row1 center">
+          <div class="web center">
+            <img src="Images/meals.png" class="restrict pointer" >
+            <h1> Miles Morles </h1>
+  </img>
+          </div>
+
+          <div class="web2 center">
+            <img src="Images/white-2.png" class="restrict pointer">
+            <h2> Spidergwen </h2>
+  </img>
+          </div>
+          <div class="web3 center">
+            <img src="Images/pp.png" class="restrict pointer">
+            <h3> Peter Parker </h3>
+  </img>
+          </div>
+        </div>
+        <div class="row2 center">
+          <div class="web center">
+
+<!--This section Matches Hero & Mentor, id in these sections read "one", "two", and "three" which checks in images in order to then click the "webspider" to then move next section-->
+            <img src="Images/uncleben.png" class="restrict pointer" onclick="nextImage4(this)" id="three">
+  </img>
+          </div>
+          <div class="web2 center">
+            <img src="Images/davis.png" class="restrict pointer" onclick="nextImage5(this)" id="one">
+      </img>
+          </div>
+          <div class="web3 center">
+            <img src="Images/pp.png" class="restrict pointer" onclick="nextImage6(this)" id="two">
+  </img>
+
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+
+      <div class="right">
+        <div class="row1 center ">
+          <div class="web5 center">
+            <img src="Images/miles.PNG" class="restrict pointer" />
+            <h4> Miles Morles </h4>
+          </div>
+
+          <div class="web6 center">
+            <img src="Images/Gwen.PNG" class="restrict pointer"/>
+            <h5>Spidergwen</h5>
+          </div>
+
+          <div class="web7 center">
+            <img src="Images/spiderman.PNG" class="restrict pointer"/>
+            <h6> Spiderman </h6>
+          </div>
+        </div>
+
+        <div class="row2 center ">
+          <div class="web8 center">
+            <!--This section Matches Hero & Mentor, id in these sections read "four", "five", and "six" which checks in images in order to then click the "web4" to then move next section-->
+            <img src="Images/Goblin.png" class="restrict pointer" onclick="nextImage(this)" id="four" />
+          </div>
+
+          <div class="web9 center">
+            <img src="Images/prowler.gif" class="restrict pointer" onclick="nextImage2(this)" id="five" />
+          </div>
+          <div class="web10 center">
+            <img src="Images/kingpen.png" class="restrict pointer" onclick="nextImage3(this)" id="six"/>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+    <div class="bottom center">
+      <div class="webspider center">
+        <!--The webspier allows for the checking of the images of heros & mentors to see if order is correct!-->
+        <img src="Images/123.png" class="restrict pointer" onclick="checkYes()" id="spider">
+      </div>
+      <div class="center mid">
+          <img src="Images/sunflower.gif" class="restrict hideimage" id="dog"> </img>
+          <center>
+          <button class"b1" onclick="finalCheck()">
+            Completed
+          </button>
+        </center>
+      </div>
+          <div class="web4 center">
+            <!--The web4 allows for once its clicked it checks the of order in which the images are matched Hero & Villains !-->
+            <img src="Images/123.png" class="restrict pointer" onclick="checkYes2()" id="spider">
+          </div>
+    </div>
+    <!--Allows the song to be loaded within the HTML!-->
+    <audio src="audio/audio.mp3" type="audio/mpeg" id="song"> </audio>
+    <script src="scripts.js"></script>
+  </body>
+  </html>
